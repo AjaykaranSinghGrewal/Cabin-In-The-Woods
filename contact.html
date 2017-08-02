@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cabin in the Woods | Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+      
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+      
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html"><p>SHIRE IN THE WOODS</p></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav rt">
+        <li><a href="home.html">HOME<span class="sr-only">(current)</span></a></li>
+        <li><a href="cabin.html">CABINS</a></li>
+        <li><a href="area.html">AREA INFO</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+    </nav>
+
+      <div class="jumbotron">
+        <img src="images/get.jpg" alt="Get In Touch" title="Get In Touch">
+      </div> 
+      
+      <div id="jumbo">
+        <h2>HOW CAN WE HELP YOU?</h2>
+        <hr>
+      </div> 
+      
+      <!-- <div id="form">
+        <form id="contact-form" action="">
+        <select class="form-control" name="select">
+            <option onclick="switch('div1');" id="phone" value="phone">KNOW MORE ABOUT US. GIVE US CALL</option>
+            <option onclick="switch('div2');" id="email" value="email">ON THE GO? SEND US AN EMAIL.</option>
+            <option onclick="switch('div3');" id="visit" value="visit">NO APPOINTMENT NECESSARY. VISIT US PERSONALLY.</option>
+            <option onclick="switch('div4');" id="social" value="social">MEDIA FRENZY? HIT US ON TWITTER.</option>
+        </select>
+        </form>
+      </div> -->
+
+      
+        <div class="buttons">
+          <input type="button" class="btn btn-warning" onclick="toggleVisibility('Menu2');" value="WRITE TO US">
+          <input type="button" class="btn btn-warning" onclick="toggleVisibility('Menu3');" value="CALL | VISIT US">
+        </div>
+      
+      <div id="Menu2">
+        <form name="contactform" action="contact.html" method="post" onsubmit="return validateForm();">
+            
+          <div class="form-group">
+            <label for="name"><i class="fa fa-user-circle-o" aria-hidden="true"></i> * NAME</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="NAME" required autofocus>
+          </div>
+            
+          <div class="form-group">
+            <label for="email"><i class="fa fa-envelope-o" aria-hidden="true"></i> * EMAIL</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" required>
+          </div>
+            
+          <div class="form-group">
+            <label for="message"><i class="fa fa-comment-o" aria-hidden="true"></i> * MESSAGE</label>
+            <textarea id="message" class="form-control" rows="3" name="message" placeholder="WRITE YOUR MESSAGE HERE" required></textarea>
+          </div>
+            
+          <div class="form-group">
+          <button id="but" name="submit" type="submit" class="btn btn-success">SEND MESSAGE</button>
+          </div>
+        </form>
+          <br/>
+      </div>
+      
+<div id="Menu3">
+    <div class="row address">
+        <div class="col-sm-6 widi">
+            <div class="well">
+                <h3><i class="fa fa-home fa-1x"></i> VISIT US @</h3>               
+                <p>125 XYZ Road,<br>
+                South Keys,<br>
+                ASG 210892, CA</p>
+                <br/>
+                
+                <br/>
+                <h3><i class="fa fa-user fa-1x"></i> Call Us @</h3>
+                <p>+1-(999)-(999)-(9999)</p>
+                <br />
+            </div>
+        </div>
+        <div class="col-sm-6">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188375.9593809898!2d-79.0019998848786!3d42.46232597918013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d2e839b3ef1f8b%3A0x7b0de23ba5aecdea!2sCabin+In+The+Woods!5e0!3m2!1sen!2sca!4v1498759338667" width="375px" height="333" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>  
+</div>
+    
+    <br/>
+    <section id="icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <a href="https://twitter.com/" target="blank"><li class="list-inline-item"><i class="twitter fa fa-twitter-square fa-lg" aria-hidden="true"></i></li></a>
+                        <a href="https://facebook.com/" target="blank"><li class="list-inline-item"><i class="facebook fa fa-facebook-square fa-lg" aria-hidden="true"></i></li></a>
+                        <a href="https://instagram.com/" target="blank"><li class="list-inline-item"><i class="instagram fa fa-instagram fa-lg" aria-hidden="true"></i></li></a>
+                        <a href="https://googleplus.com/" target="blank"><li class="list-inline-item"><i class="google fa fa-google-plus-square fa-lg" aria-hidden="true"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Cabin In The Woods | 2014 Grewal, Inc. &middot; <a href="contact.html">Contact Us</a> &middot;</p>
+      </footer>
+      
+  <script>
+        var divs = ["Menu2", "Menu3"];
+        var visibleDivId = null;
+        function toggleVisibility(divId) {
+          if(visibleDivId === divId) {
+            //visibleDivId = null;
+          } else {
+            visibleDivId = divId;
+          }
+          hideNonVisibleDivs();
+        }
+        function hideNonVisibleDivs() {
+          var i, divId, div;
+          for(i = 0; i < divs.length; i++) {
+            divId = divs[i];
+            div = document.getElementById(divId);
+            if(visibleDivId === divId) {
+              div.style.display = "block";
+            } else {
+              div.style.display = "none";
+            }
+          }
+        }
+  </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>      
+    <script src="js/custom.js" type="text/javascript"></script>
+    
+</body>
+</html>
