@@ -1,0 +1,370 @@
+/*INDEX*/
+#bo{
+    /*background-color: #333333;*/
+    background-image: url('../images/bck1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+#logo{
+    float: left;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#logo img{
+    margin-top: 30px;
+    width: 300px;
+    padding: 0;
+}
+
+#tagline{
+    width: 62%;
+    float: right;
+    margin: 0;
+}
+
+#tagline p{
+    font-family: 'Bellefair', serif;
+    color: #995c00;
+    font-weight: 700;
+    font-size: 75px;
+    margin-top:80px;
+    opacity: 0.7;
+    padding-top: 90px;
+    padding-right: 25px;
+    text-align: right;
+}
+
+#but{
+    
+    width: 600px;
+    height: 50px;
+    margin-left: 430px;
+    margin-right: 150px;
+    float: right;
+}
+
+#but input{
+    text-align: center;
+    margin-left: 455px;
+    margin-top: 55px;
+    font-size: 53px;
+    opacity: 0.25;
+}
+
+#but input:hover{
+    opacity: 0.4;
+}
+
+.rt{
+    float: right;
+}
+
+/*HOME*/
+.navbar-brand p{
+    font-family: 'Bitter', serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 7px;
+}
+
+ul{
+    padding-right: 25px;
+    padding-top: 3px;
+}
+
+ul li{
+    font-family: 'Bitter', serif;
+    font-size: 1.3em;
+}
+
+.heading{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.featurette-heading{
+    font-size: 3.5em;
+}
+
+#icons li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 9px; 
+}
+
+
+#icons{
+    margin: 19px;
+    text-align: center;
+}
+
+#icons .twitter:hover{
+    color: #6cadde;
+}
+
+#icons .facebook:hover{
+    color: #3b5998;
+}
+
+#icons .instagram:hover{
+    color: #fb3958;
+}
+
+#icons .google:hover{
+    color: #ea4335;
+}
+
+/*CONTACT*/
+.jumbotron img{
+    width: 100%;
+    padding: 0;
+    z-index: 0;
+}
+
+.jumbotron{
+    padding: 0;
+    margin: 0;
+}
+
+#jumbo{   
+    margin: 0;
+    text-align: center;
+}
+
+#jumbo h2{
+    padding-top: 35px;
+    color: #e65c00;
+    font-family: 'Bahiana', cursive;
+    font-size: 5em;
+}
+
+#jumbo hr{
+    width: 30%;
+    margin: 0 auto;
+    background-color: #803300;
+}
+
+/*#contact-form{
+    width: 50%;
+    text-align: center;
+    margin: 8px auto;
+    font-family: 'Bahiana', cursive;
+    font-weight: bold;
+}
+
+#contact-form select option{
+    font-size: 2em;
+}*/
+
+.buttons{
+    text-align: center;
+    margin: 15px auto;
+}
+
+#Menu2{
+    display: none;
+    width: 65%;
+    margin: 0 auto 10px auto;
+}
+
+#but{
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#but:hover{
+    opacity: 1;
+}
+
+form{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.7em;
+}
+
+#Menu3{ 
+    display: none;
+    width: 55%;
+    margin: 0 auto 10px auto;
+    /*margin-left: 0px;*/
+}
+
+.address{
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.well h3{
+    color:#339966;
+    font-size: 1.5em;
+}
+.well p{
+    margin-left: 10%;
+    margin-top:6%;
+    font-size: 1.2em;
+}
+.widi{
+    width:375px;
+}
+
+
+/*CABIN*/
+.wrapper {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: auto auto auto;
+    }
+
+    .wrap {
+        /*background-color: #444;*/
+        padding: 1px;
+    }
+    .a h1, h3{
+        font-size: 1.4em;
+    }
+    .a {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        padding: 0;
+        font-size: 2em;
+        text-align: center;
+        padding-top: 22px;
+        font-family: 'Cabin Sketch', cursive;
+    }
+    .b {
+        grid-column: 3/3 ;
+        grid-row: 1 / 2;
+
+    }
+    .c {
+        grid-column: 1 ;
+        grid-row: 2/2 ;
+    }
+    .d {
+        grid-column: 2;
+        grid-row: 2/2;
+    }
+    .e {
+        grid-column: 3;
+        grid-row: 2 / 2;
+    }
+
+.jum{
+    padding: 5px;
+    background-color: #fdf5e6;
+    font-size: 2em;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.jum1{
+    padding: 5px;
+    background-color: #fdf5e6;
+    font-size: 2em;
+    margin-right: 70px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.blog{
+    margin-left: 15px;
+    text-align: left;
+}
+
+.blog1{
+    margin-left: 15px;
+    text-align: right;
+}
+
+.feature{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 0.6em;
+    padding-left: 5px;
+}
+
+#feature1{
+    font-size: 2.8em;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+#text{
+    display: none;
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:180px;
+}
+
+/*COMING SOON*/
+#bod{
+    background: url('../images/bg.jpg') center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    padding-top: 17px;
+}
+
+#log{
+    margin-left: 535px;
+    margin-top: 0;
+    padding: 0px;
+    width: 20%;
+}
+
+.available{
+    color: #ffffe6;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.available .btn{
+    background-color: rgba(161,186,226,0.60);
+    color: white;
+}
+
+.available .btn:hover{
+    background-color: rgba(37,165,82,1);
+}
+
+#counter .countdown{
+    text-align: center;
+    color: #ffffe6;
+    font-size: 3.5em;
+    margin: -15px 0 0;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+/*AREA*/
+.raw{font-family: 'Simonetta', cursive;}
+
+.jum2{
+    font-family: 'Tinos', serif;
+}
+.marketing{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Tinos', serif;
+}
+.marketing h2{
+    font-size: 2.3em;
+}
+.marketing p{
+    font-size: 1.2em;
+}
+.img-circle{
+    margin-top: 1%;
+}
+.img-circle:hover{
+    margin-top: 0;
+}
